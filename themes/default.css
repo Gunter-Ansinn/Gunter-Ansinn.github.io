@@ -1,0 +1,37 @@
+/*
+    this file is the main color themeing of the website with a few
+    pre-made display settings such as site theme etc...
+    This is also the default website theme known fondly as: blueueueueu
+*/
+
+:root {
+    --primary-bg-color: 44, 51, 51;
+    --primary-accent-color: 57, 91, 100;
+    --primary-color: 165, 201, 202;
+    --primary-highlight-color: 231, 246, 242;
+
+    --primary-text-color: 231, 246, 242;
+}
+
+
+.background {
+    background-color: rgba(var(--primary-bg-color), 1);
+}
+
+.accent {
+    background-color: rgba(var(--primary-accent-color), 1);
+}
+
+.primary {
+    background-color: rgba(var(--primary-color), 1);
+}
+
+.highlight {
+    background-color: rgba(var(--primary-highlight-color), 1);
+
+}
+
+.text {
+    color: rgba(var(--primary-text-color), 1);
+}
+

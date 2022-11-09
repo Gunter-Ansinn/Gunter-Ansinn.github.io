@@ -1,0 +1,41 @@
+/*
+    this file is the main color themeing of the website with a few
+    pre-made display settings such as site theme etc...
+    This is also the default website theme known fondly as: blueueueueu
+*/
+
+:root {
+    --darkAccent: #1B48C4;
+    --lightAccent: #216BEA;
+    --badAccent: #FF282F;
+    --darkBackground: #24232B;
+    --lightBackground: #2F2F38;
+    --text: #FFFFFF;
+    --subText: #A0A0A0;
+    --titlebar: #FFFFFF;
+
+    color: var(--text);
+}
+
+div {
+    background-color: var(--darkAccent);
+    
+}
+
+.accent-dark {
+    background-color: var(--darkAccent);
+}
+
+.accent-light {
+    background-color: var(--lightAccent);
+}
+
+.highlight {
+    background-color: rgba(var(--primary-highlight-color), 1);
+
+}
+
+.text {
+    color: rgba(var(--primary-text-color), 1);
+}
+
