@@ -1,0 +1,28 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    min-height: 100%;
+}
+
+#err {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+    font-size: 30px;
+
+    color: white;
+}
+
+#info {
+    position: absolute;
+    top: 16%;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    display: block;
+
+    color: white;
+}
